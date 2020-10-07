@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main(){
-	cout<<"hello"<<endl;
+int main()
+{
+	cout << "hello22222gi" << endl;
 	return 0;
 }
