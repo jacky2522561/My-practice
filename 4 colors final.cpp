@@ -97,19 +97,19 @@ int main(){
 		else right=1;
 	}
 	
-	cout<<"----------------------------------------------------------------------"<<endl;
-	for(int i=0;i<NodeList.size();i++){
-		if(NodeList[i]->adj.size()!=0){
-			NodeList[i]->table();
-		}
-	}
-	
-	cout<<"----------------------------------------------------------------------"<<endl;
 	if(right){
+		cout<<"----------------------------------------------------------------------"<<endl;
+		for(int i=0;i<NodeList.size();i++){
+			if(NodeList[i]->adj.size()!=0){
+				NodeList[i]->table();
+			}
+		}
+		cout<<"----------------------------------------------------------------------"<<endl;
 		cout<<"We can solve the problem by "<<Color<<" colors!!!"<<endl;
 		cout<<"Congratulations!!!"<<endl;
 	}
 	else{
+		cout<<"----------------------------------------------------------------------"<<endl;
 		cout<<"We can't solve the problem by "<<Color<<" colors!!!"<<endl;
 		cout<<"Fail!! Try to add up more colors"<<endl;
 	}
