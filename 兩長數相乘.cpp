@@ -20,7 +20,6 @@ int main(){
 	for(int i=0;i<numinput1.size()+numinput2.size();i++){
 		sum.push_back(0);
 	}
-	cout<< sum.size()<<endl;
 	int carry,temp;
 	for(int i=0;i<numlist1.size();i++){
 		carry = 0;             

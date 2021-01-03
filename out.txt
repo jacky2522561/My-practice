@@ -1,0 +1,7 @@
+¾Ç¸¹: 408411477       ©m¦W: ¨¯¤¶¦t
+Node: B  Color: 1   My neighber: A C D E 
+Node: E  Color: 2   My neighber: B C D F 
+Node: C  Color: 3   My neighber: B F E 
+Node: D  Color: 3   My neighber: A B E 
+Node: F  Color: 1   My neighber: C E 
+Node: A  Color: 2   My neighber: B D 
